@@ -4,6 +4,7 @@ Practice Methodology for LLM-Driven Pharmaceutical Equity Research
 Prompt 1: 
 Identify the primary high-impact binary risk factor for **** over the next 12 months (e.g., PDUFA, Phase 3 readout, patent cliff, or debt maturity). Search the most recent 10-K, 10-Q, and 8-K filings to locate the specific technical hurdle that has previously caused a delay or setback (e.g., a CMC deficiency, a clinical hold, or a supply chain 'material weakness'). Summarize the company’s official narrative versus the specific technical reason cited by the regulator or auditor.
 
+(Feed Filtered Output of Prompt 1 into **** of Prompt 2)
 Prompt 2: 
 Regarding the **** identified, generate a list of investigative 'red-flag' questions.
 Where is the specific physical location or third-party entity (CDMO, Law Firm, Auditor) responsible for this hurdle?
@@ -11,6 +12,7 @@ What is the regulatory track record of that specific location/entity (search for
 Are there discrepancies between different regulatory bodies regarding this entity (e.g., US-FDA vs. EU-EMA)?
 Identify 3 historical precedents of other companies that failed or succeeded at this exact same hurdle.
 
+(Feed Filtered Output of Prompt 2 into **** of Prompt 3)
 Prompt 3:
 Subject: Structural Integrity Audit of Regarding
 Objective: Perform a sober, investigative analysis to determine if the company’s recovery strategy for **** is a 'paper fix' or a meaningful operational pivot.
